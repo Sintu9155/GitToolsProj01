@@ -12,6 +12,6 @@ public class App {
 
       App app=new App();
       int sum = app.sum(1, 2);
-      System.out.println("Sum of both number : "+sum);
+      System.out.println("Sum of both number in TL : "+sum);
     }
 }
