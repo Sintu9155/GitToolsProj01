@@ -3,7 +3,7 @@ package com.nt.main;
 
 public class App {
 	
-	public static  int sum(int n1,int n2)
+	public  int sum(int n1,int n2)
 	{
 		return n1+n2;
 		
@@ -11,7 +11,7 @@ public class App {
     public static void main(String[] args) {
 
       App app=new App();
-      int sum = App.sum(1, 2);
-      System.out.println("Sum : "+sum);
+      int sum = app.sum(1, 2);
+      System.out.println("Sum of both number : "+sum);
     }
 }
