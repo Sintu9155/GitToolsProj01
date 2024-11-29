@@ -1,4 +1,4 @@
 FROM openjdk
 WORKDIR /app1
-COPY . /app1
-CMD ["java","Sample"]
+COPY target/*.jar /app1
+CMD ["java","-"jar,"BootApp01.jar"]
